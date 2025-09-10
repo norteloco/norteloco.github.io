@@ -1,0 +1,97 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* scrollbars */
+*::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+*::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000000;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #252525;
+}
+
+/* global */
+
+html,
+body {
+    margin: 0;
+    color: #fff;
+}
+
+html {
+    background: #7e7e7e;
+    background-image: url(/img/bg.svg);
+    font-family: monospace;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* header */
+header {
+    margin: auto;
+    max-width: 1200px;
+    /* align-items: center; */
+}
+
+/* navigation */
+nav {
+    align-items: center;
+    padding: 20px;
+}
+
+nav a.logo {
+    background-image: url(/img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-shrink: 0;
+    width: 120px;
+    height: 60px;
+    transition: 0.2s ease all;
+}
+
+.socials a {
+    filter: invert(50%);
+    font-size: 0;
+    padding: 15px;
+    transition: 0.2s ease all;
+    gap: 10px;
+}
+
+.socials img {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.socials a:hover {
+    filter: invert(100%);
+}
+
+.flex {
+    display: flex;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcse {
+    justify-content: space-evenly;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}

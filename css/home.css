@@ -1,0 +1,15 @@
+/* global */
+
+:root {
+    --text-color: #fff;
+    --title-color: #cecece;
+    --icons-color: ;
+}
+
+/* main */
+
+main {
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1200px;
+}
