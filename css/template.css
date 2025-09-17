@@ -15,6 +15,12 @@
 
 /* global */
 
+:root {
+    --header-color: #fff;
+    --text-color: #cecece;
+    --title-color: #7e7e7e;
+}
+
 html,
 body {
     margin: 0;
@@ -24,7 +30,8 @@ body {
 
 html {
     background: #7e7e7e;
-    background-image: url(/img/bg.svg);
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
     scroll-behavior: smooth;
 }
 
@@ -104,5 +111,6 @@ main {
 
 footer {
     justify-content: center;
-    font-size: 16px;
+    font-size: 0.8rem;
+    color: var(--title-color);
 }
